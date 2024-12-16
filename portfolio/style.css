@@ -303,23 +303,35 @@ section {
 }
 @media (max-width: 1080px) {
   .about-containers {
-    flex-direction: column; /* Stack content vertically */
+    flex-direction: column; 
    
   }
 
   .about-pic {
-    height: 250px; /* Smaller image */
-    width: 250px; /* Adjust spacing */
+    height: 250px; 
+    width: 250px; 
     margin:10px;
   }
 }
 @media (max-width:500px){
   .about-pic{
-    height: 200px; /* Smaller image */
+    height: 200px; 
     width: 200px;
   }
 }
-@media (max-width:480px){
+@media (max-width:400px){
+  .about-pic{
+    height: 175px; 
+    width: 175px;
+  }
+}
+@media (max-width:360px){
+  .about-pic{
+    height: 150px; 
+    width: 150px;
+  }
+}
+@media (max-width:300px){
   .about-pic{
     display:none;
   }
